@@ -10,5 +10,6 @@ namespace MyBlog_API.Domain
         Task<List<AppUser>> GetAllUsers();
         Task<AppUser> GetUserById(int id);
         Task<AppUser> Register(AppUser user);
+        Task<AppUser> Login(AppUser user);
     }
 }

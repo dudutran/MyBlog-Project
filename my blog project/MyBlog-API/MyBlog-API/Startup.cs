@@ -11,6 +11,8 @@ using Microsoft.OpenApi.Models;
 using MyBlog_API.Data;
 using MyBlog_API.Domain;
 using MyBlog_API.Entities;
+using MyBlog_API.Interfaces;
+using MyBlog_API.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,6 +33,9 @@ namespace MyBlog_API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //JWT, testing is the main reason for creating interface
+            services.AddScoped<ITokenService, TokenService>();
+
             //Repos
             services.AddScoped<IUsersRepo, UsersRepo>();
 

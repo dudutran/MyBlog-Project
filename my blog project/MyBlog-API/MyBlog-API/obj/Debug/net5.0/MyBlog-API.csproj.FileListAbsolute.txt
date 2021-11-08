@@ -144,3 +144,7 @@ D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\bin\Deb
 D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\obj\Debug\net5.0\MyBlog-API.csproj.CopyComplete
 D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\bin\Debug\net5.0\ref\MyBlog-API.dll
 D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\obj\Debug\net5.0\staticwebassets\MyBlog-API.StaticWebAssets.xml
+D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll

@@ -32,7 +32,26 @@ namespace MyBlog_API.Controllers
         [HttpPost("register")]
         public async Task<ActionResult<AppUser>> Register(AppUser user)
         {
-            return await _usersrepo.Register(user);
+            try
+            {
+                return await _usersrepo.Register(user);
+
+            }catch(Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+
+        [HttpPost, Route("login")]
+        public async Task<ActionResult<AppUser>> Login(AppUser user)
+        {
+            try
+            {
+                return await _usersrepo.Login(user);
+            }catch(Exception e)
+            {
+                return BadRequest(e.Message);
+            }
         }
     }
 }
