@@ -4,6 +4,7 @@ using MyBlog_API.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using AppUser = MyBlog_API.Domain.AppUser;
@@ -31,6 +32,23 @@ namespace MyBlog_API.Data
                 return new AppUser(user.Id, user.UserName);
             }
             return null;
+        }
+        
+        //register
+        public async Task<AppUser> Register(AppUser user)
+        {
+            using var hmac = new HMACSHA512();
+            var newuser = new Entities.AppUser
+            {
+                UserName = user.UserName,
+                PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(user.Password)),
+                PasswordSalt = hmac.Key
+            };
+
+            await _context.Users.AddAsync(newuser);
+            await _context.SaveChangesAsync();
+            
+            return new Domain.AppUser(newuser.Id, newuser.UserName);
         }
     }
 }
