@@ -27,5 +27,12 @@ namespace MyBlog_API.Controllers
             var users = await _usersrepo.GetAllUsers();
             return Ok(users);
         }
+
+        //Post: api/<UsersController>
+        [HttpPost("register")]
+        public async Task<ActionResult<AppUser>> Register(AppUser user)
+        {
+            return await _usersrepo.Register(user);
+        }
     }
 }

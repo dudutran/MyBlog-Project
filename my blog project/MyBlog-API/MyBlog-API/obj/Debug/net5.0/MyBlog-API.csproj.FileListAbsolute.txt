@@ -61,7 +61,6 @@ D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\bin\Deb
 D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\bin\Debug\net5.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\bin\Debug\net5.0\xunit.runner.reporters.netcoreapp10.dll
 D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\bin\Debug\net5.0\xunit.runner.utility.netcoreapp10.dll
-D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\bin\Debug\net5.0\ref\MyBlog-API.dll
 D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\bin\Debug\net5.0\Microsoft.TestPlatform.CoreUtilities.dll
 D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
@@ -142,5 +141,6 @@ D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\bin\Deb
 D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\bin\Debug\net5.0\Test.dll
 D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\bin\Debug\net5.0\Test.pdb
-D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\obj\Debug\net5.0\staticwebassets\MyBlog-API.StaticWebAssets.xml
 D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\obj\Debug\net5.0\MyBlog-API.csproj.CopyComplete
+D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\bin\Debug\net5.0\ref\MyBlog-API.dll
+D:\github portfolio\MyBlog-Project\my blog project\MyBlog-API\MyBlog-API\obj\Debug\net5.0\staticwebassets\MyBlog-API.StaticWebAssets.xml
