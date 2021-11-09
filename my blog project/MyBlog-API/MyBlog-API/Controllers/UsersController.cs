@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using MyBlog_API.Domain;
@@ -22,10 +23,18 @@ namespace MyBlog_API.Controllers
 
         // GET: api/<UsersController>
         [HttpGet]
+        [Authorize]
         public async Task<ActionResult<AppUser>> GetUsers()
         {
             var users = await _usersrepo.GetAllUsers();
             return Ok(users);
+        }
+        [HttpGet("{id}")]
+        [AllowAnonymous]
+        public async Task<ActionResult<AppUser>> GetUserById(int id)
+        {
+            var user = await _usersrepo.GetUserById(id);
+            return Ok(user);
         }
 
         //Post: api/<UsersController>
